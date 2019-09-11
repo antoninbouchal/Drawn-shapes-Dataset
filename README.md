@@ -55,11 +55,19 @@ Python script `process.py` suppose to convert paths to images and binary CSV mat
 When you run script if will fill directories `output/images` and `output/binary` with data separated
 to subdirectories by types.
 
-### Image examples:
+For modify output you can change config on beginning of the script 
 
-![circle](./examples/0.00089200 1567776990.png)
-![diamond](./examples/0.00292400 1567777236.png)
-![oval](./examples/0.00080600 1567776567.png)
-![rectangle](./examples/0.00178700 1567787745.png)
-![square](./examples/0.00035800 1567776476.png)
-![triangle](./examples/0.00177900 1567778143.png)
+```python
+OUTPUT_SIZE = 28
+OUTPUT_DRAWN_PATH_THICKNESS = 1
+OUTPUT_SHAPE_PADDING = 2
+```
+
+### Output image examples:
+
+![circle](https://github.com/antoninbouchal/drawn-shapes-dataset/raw/master/examples/0.00089200%201567776990.png)
+![diamond](https://github.com/antoninbouchal/drawn-shapes-dataset/raw/master/examples/0.00292400%201567777236.png)
+![oval](https://github.com/antoninbouchal/drawn-shapes-dataset/raw/master/examples/0.00080600%201567776567.png)
+![rectangle](https://github.com/antoninbouchal/drawn-shapes-dataset/raw/master/examples/0.00178700%201567787745.png)
+![square](https://github.com/antoninbouchal/drawn-shapes-dataset/raw/master/examples/0.00035800%201567776476.png)
+![triangle](https://github.com/antoninbouchal/drawn-shapes-dataset/raw/master/examples/0.00177900%201567778143.png)
